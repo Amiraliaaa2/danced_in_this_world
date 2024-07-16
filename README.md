@@ -1,5 +1,5 @@
-A puppet dancing to the music of Ali Sorena.
-Music text :
+A puppet dancing to the music of Ali Sorena. </br>
+Music text : </br>
 دو تا پاتو می زدی رو سنگ سرما </br>
 آتیش کشیدی توی جنگ سرما </br>
 کشیدی با چه قوسی تو موهات دستتو </br>
