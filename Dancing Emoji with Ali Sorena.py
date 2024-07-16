@@ -1,3 +1,6 @@
+#    @Amiraliaaa2
+#    instagram : @amirali.aaa_
+
 import tkinter as tk
 
 class DancingFigure:
