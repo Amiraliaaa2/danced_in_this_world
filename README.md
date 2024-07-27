@@ -1,73 +1,132 @@
-A puppet dancing to the music of Ali Sorena. </br>
-Music text : </br>
-دو تا پاتو می زدی رو سنگ سرما </br>
-آتیش کشیدی توی جنگ سرما </br>
-کشیدی با چه قوسی تو موهات دستتو </br>
-پا کوبیدی شیشه ی خونه ها شکست </br>
-تویی خنده به جنگ </br>
-موی دماغ خونه ها عطسه ی سنگ </br>
-پا کوبیدی با چشمای بسته چه رقصی </br>
-رو خورده شیشه های شکسته می کردی </br>
-فصل باد واقعیت در آغوش گرفته بودم یالت رو </br>
-تو با فشار رقصیدی توی باد سیال و </br>
-رقصیدم پشت رقص سیال تو </br>
-ار تراس خونه های قصه نامه ای رقص کنون </br>
-از دست های زنی مضطرب رها شد </br>
-مثل دستمال و کاغذا و ساقه ای زرد </br>
-ما رقصنده های ارکستر واقعیت </br>
-رقص می شدیمو رقص می شدی </br>
-تو تو چادر سیاه شب غرق می شدی </br>
-با موج خروشان تیرگی مقابل من </br>
-آروم می افتادی توی ساحل من </br>
-من با تو دیدم که مرگ پس می کشه </br>
-یه مغروق چطور بازم نفس می کشه </br>
-من آری به زندگی رو با تو فهمیدم </br>
-اینکه این بار سنگین رو سر سخت می کشه </br>
-دنبال تاریخ بگردید </br>
-تو دست و پای زخمی آهنگای ما </br>
-دنبال تاریخ بگردید </br>
- تو شعر های واقعی باورای ما </br>
-دنبال تاریخ بگردید </br>
-تو سایه های زیر عفونت ستم </br>
-دنبال رقصنده هایی </br>
-که رقصشون گلوله است تو صورت ستم </br>
-دنبال تاریخ بگردید </br>
-که قدرت نداره اعتنا به رقص ما </br>
-دنبال تاریخ بگردی </br>
-تو صحنه های وهم خواب پا برهنه ها </br>
-و تو از شهر و هر صدا </br>
-که میای به سمت زندگی واقعی </br>
-یعنی مبارزه میون خورشید و وهم سایه ها </br>
-دنبال تاریخ بگرد </br>
-رقصیدیم توو این جهان تنگ بنا شده </br>
-این ارواح مغروق مردگان رها شده </br>
-با گوشه ی چشم نگاهمون می کردن آجرا </br>
-تو استخون بی جون خونه های فقر </br>
-وقتی که باد جدایی آواز شد </br>
-آخرین اصطکاک دست ما ساز شد </br>
-من از پشت کشیده شدم توی طوفان </br>
-من پنجه هام مشت تو پنجه هات باز شد </br>
-از اون روز که تو سایه ها جدا شدیم </br>
-مثل همه همسایه ها جدا شدیم </br>
-دو جوونه ی کوچیک رو نهال زندگی </br>
-که تو روز تقسیم شاخه ها جدا شدیم </br>
-هوای شاخه ی من شک شد </br>
-دور از شاخه ی تو شاخه ی من تک شد </br>
-تا آخرین لحظه رسیدی به بودن </br>
-تا فهمیدم درخت این قافله پیچک شد . </br>
-دنبال تاریخ بگردید </br>
-تو دست و پای زخمی آهنگای ما </br>
-دنبال تاریخ بگردید </br>
-تو شعر های واقعی باورای ما </br>
-دنبال تاریخ بگردی </br>
-تو سایه های زیر عفونت ستم </br>
-دنبال رقصنده هایی </br>
-که رقصشون گلوله است تو صورت ستم </br>
-دنبال تاریخ بگردید </br>
-که قدرت نداره اعتنا به رقص ما </br>
-دنبال تاریخ بگردید </br>
-تو صحنه های وهم خواب پا برهنه ها </br>
-و تو از شهر و هر صدا </br>
-که میای به سمت زندگی واقعی </br>
-یعنی مبارزه میون خورشید و وهم سایه ها .. </br>
-دنبال تاریخ بگرد </br>
+# Dancing Puppet to the Music of Ali Sorena
+
+This project features a dancing puppet animation implemented using `tkinter` in Python. The puppet dances to the rhythm, simulating a performance to the music of Ali Sorena.
+
+## Features
+
+- A simple animation of a dancing figure.
+- Smooth transitions between dance moves.
+- Customizable canvas and figure parts.
+
+## Requirements
+
+- Python 3.x
+- `tkinter` library (included with standard Python installations)
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```sh
+   git clone https://github.com/your-username/dancing-puppet.git
+   cd dancing-puppet
+   ```
+2. ** Run the script:**
+   ```python
+   python dancing_puppet.py
+   ```
+## Usage
+Simply run the dancing_puppet.py script to see the animation in action. The figure will continuously perform a sequence of dance moves.
+
+---
+
+# Code Overview
+The main parts of the code include:
+
+## Importing Libraries
+```python
+import tkinter as tk
+```
+## DancingFigure Class
+This class sets up the canvas and initializes the figure's body parts. It also handles the animation logic.
+```python
+class DancingFigure:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("رقصيديم در جهان تنگ بنا شده ، اين ارواح  مغروق مردگان رها شده")
+        
+        self.canvas = tk.Canvas(root, width=500, height=500, bg='black')  
+        self.canvas.pack()
+        
+        # Initialize figure parts
+        self.head = self.canvas.create_oval(220, 100, 280, 160, fill='white')  
+        self.left_eye = self.canvas.create_oval(235, 120, 245, 130, fill='black')  
+        self.right_eye = self.canvas.create_oval(255, 120, 265, 130, fill='black') 
+        self.mouth = self.canvas.create_line(240, 145, 260, 145, width=2, fill='red')  
+        self.body = self.canvas.create_line(250, 160, 250, 300, width=3, fill='white')  
+        self.left_arm = self.canvas.create_line(250, 200, 200, 250, width=3, fill='white')  
+        self.right_arm = self.canvas.create_line(250, 200, 300, 250, width=3, fill='white')  
+        self.left_hand = self.canvas.create_oval(190, 240, 210, 260, fill='white')  
+        self.right_hand = self.canvas.create_oval(290, 240, 310, 260, fill='white')  
+        self.left_leg = self.canvas.create_line(250, 300, 200, 400, width=3, fill='white')  
+        self.right_leg = self.canvas.create_line(250, 300, 300, 400, width=3, fill='white')  
+        self.left_foot = self.canvas.create_oval(190, 390, 210, 410, fill='white')  
+        self.right_foot = self.canvas.create_oval(290, 390, 310, 410, fill='white')  
+
+        self.animation_step = 0
+        self.animate()
+
+    def animate(self):
+        if self.animation_step == 0:
+            self.canvas.coords(self.left_arm, 250, 200, 180, 230)  
+            self.canvas.coords(self.right_arm, 250, 200, 320, 230) 
+            self.canvas.coords(self.left_hand, 170, 220, 190, 240) 
+            self.canvas.coords(self.right_hand, 310, 220, 330, 240)
+            self.canvas.coords(self.left_leg, 250, 300, 220, 420)  
+            self.canvas.coords(self.right_leg, 250, 300, 280, 420) 
+            self.canvas.coords(self.left_foot, 210, 410, 230, 430) 
+            self.canvas.coords(self.right_foot, 270, 410, 290, 430)
+            self.canvas.coords(self.mouth, 240, 145, 260, 145)  # simple smile
+        elif self.animation_step == 1:
+            self.canvas.coords(self.left_arm, 250, 200, 200, 250)  
+            self.canvas.coords(self.right_arm, 250, 200, 300, 250) 
+            self.canvas.coords(self.left_hand, 190, 240, 210, 260) 
+            self.canvas.coords(self.right_hand, 290, 240, 310, 260)
+            self.canvas.coords(self.left_leg, 250, 300, 200, 400)  
+            self.canvas.coords(self.right_leg, 250, 300, 300, 400) 
+            self.canvas.coords(self.left_foot, 190, 390, 210, 410) 
+            self.canvas.coords(self.right_foot, 290, 390, 310, 410)
+            self.canvas.coords(self.mouth, 240, 145, 260, 145)  # simple smile
+        elif self.animation_step == 2:
+            self.canvas.coords(self.left_arm, 250, 200, 200, 230)  
+            self.canvas.coords(self.right_arm, 250, 200, 300, 230) 
+            self.canvas.coords(self.left_hand, 190, 220, 210, 240) 
+            self.canvas.coords(self.right_hand, 290, 220, 310, 240)
+            self.canvas.coords(self.left_leg, 250, 300, 180, 420)  
+            self.canvas.coords(self.right_leg, 250, 300, 320, 420) 
+            self.canvas.coords(self.left_foot, 170, 410, 190, 430) 
+            self.canvas.coords(self.right_foot, 330, 410, 350, 430)
+            self.canvas.coords(self.mouth, 240, 145, 260, 145)  # simple smile
+        elif self.animation_step == 3:
+            self.canvas.coords(self.left_arm, 250, 200, 200, 270)  
+            self.canvas.coords(self.right_arm, 250, 200, 300, 270) 
+            self.canvas.coords(self.left_hand, 190, 260, 210, 280) 
+            self.canvas.coords(self.right_hand, 290, 260, 310, 280)
+            self.canvas.coords(self.left_leg, 250, 300, 220, 400)  
+            self.canvas.coords(self.right_leg, 250, 300, 280, 400) 
+            self.canvas.coords(self.left_foot, 210, 390, 230, 410) 
+            self.canvas.coords(self.right_foot, 270, 390, 290, 410)
+            self.canvas.coords(self.mouth, 240, 145, 260, 145)  # simple smile
+
+        self.animation_step = (self.animation_step + 1) % 4
+        self.root.after(300, self.animate)
+```
+## Main Function
+The main function initializes the tkinter root window and starts the DancingFigure animation.
+```python
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = DancingFigure(root)
+    root.mainloop()
+```
+## Contributing
+Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
+
+## Credits
+- Developed by Amiraliaaa2
+- Instagram: @amirali.aaa_
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+```sh
+```
